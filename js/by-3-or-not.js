@@ -1,0 +1,1 @@
+const divisibleByThree = str => (str.split('').reduce( (a, b) => parseInt(a) + parseInt(b), 0 )) % 3 == 0;
